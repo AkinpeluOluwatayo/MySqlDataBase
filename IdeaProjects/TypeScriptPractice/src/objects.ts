@@ -16,3 +16,4 @@ let student = {
     }
 }
 console.log(student.verification(9, 19));
+
