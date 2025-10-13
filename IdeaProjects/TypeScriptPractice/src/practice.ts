@@ -17,3 +17,14 @@ function displayNurses(nurses:string[]):void{
 
 let registerNurses = registerStudent();
     displayNurses(registerNurses);
+
+
+function calculateTax(income:number):string{
+    if (income < 50000){
+        return "u poor";
+    }else{
+        return"wow";
+    }
+
+}
+console.log(calculateTax(20000));
